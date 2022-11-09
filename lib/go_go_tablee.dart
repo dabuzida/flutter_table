@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 
-class GoGoTable extends StatelessWidget {
-  const GoGoTable({super.key});
+class GoGoTablee extends StatelessWidget {
+  GoGoTablee({super.key});
   // Color borderColor = const Color(0xFFECEDED);
   final Color borderColor = Colors.grey;
-  // final double borderWidth = 0.2;
-  final double borderWidth = 1.0;
+  final double borderWidth = 0.2;
+  final Border border = Border.all(
+    color: Colors.grey,
+    width: 0.2,
+  );
 
   @override
   Widget build(BuildContext context) {
@@ -43,6 +46,7 @@ class GoGoTable extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(horizontal: 5),
                       decoration: BoxDecoration(
                         border: Border(
+                          left: BorderSide(color: borderColor, width: borderWidth),
                           top: BorderSide(color: borderColor, width: borderWidth),
                           right: BorderSide(color: borderColor, width: borderWidth),
                           bottom: BorderSide(color: borderColor, width: borderWidth),
@@ -59,6 +63,7 @@ class GoGoTable extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(horizontal: 5),
                       decoration: BoxDecoration(
                         border: Border(
+                          left: BorderSide(color: borderColor, width: borderWidth),
                           top: BorderSide(color: borderColor, width: borderWidth),
                           right: BorderSide(color: borderColor, width: borderWidth),
                           bottom: BorderSide(color: borderColor, width: borderWidth),
@@ -84,6 +89,7 @@ class GoGoTable extends StatelessWidget {
                       decoration: BoxDecoration(
                         border: Border(
                           left: BorderSide(color: borderColor, width: borderWidth),
+                          top: BorderSide(color: borderColor, width: borderWidth),
                           right: BorderSide(color: borderColor, width: borderWidth),
                           bottom: BorderSide(color: borderColor, width: borderWidth),
                         ),
@@ -105,6 +111,8 @@ class GoGoTable extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               border: Border(
+                                left: BorderSide(color: borderColor, width: borderWidth),
+                                top: BorderSide(color: borderColor, width: borderWidth),
                                 right: BorderSide(color: borderColor, width: borderWidth),
                                 bottom: BorderSide(color: borderColor, width: borderWidth),
                               ),
@@ -120,6 +128,8 @@ class GoGoTable extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               border: Border(
+                                left: BorderSide(color: borderColor, width: borderWidth),
+                                top: BorderSide(color: borderColor, width: borderWidth),
                                 right: BorderSide(color: borderColor, width: borderWidth),
                                 bottom: BorderSide(color: borderColor, width: borderWidth),
                               ),
@@ -142,6 +152,8 @@ class GoGoTable extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               border: Border(
+                                left: BorderSide(color: borderColor, width: borderWidth),
+                                top: BorderSide(color: borderColor, width: borderWidth),
                                 right: BorderSide(color: borderColor, width: borderWidth),
                                 bottom: BorderSide(color: borderColor, width: borderWidth),
                               ),
@@ -157,6 +169,8 @@ class GoGoTable extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               border: Border(
+                                left: BorderSide(color: borderColor, width: borderWidth),
+                                top: BorderSide(color: borderColor, width: borderWidth),
                                 right: BorderSide(color: borderColor, width: borderWidth),
                                 bottom: BorderSide(color: borderColor, width: borderWidth),
                               ),
@@ -183,6 +197,7 @@ class GoGoTable extends StatelessWidget {
                       decoration: BoxDecoration(
                         border: Border(
                           left: BorderSide(color: borderColor, width: borderWidth),
+                          top: BorderSide(color: borderColor, width: borderWidth),
                           right: BorderSide(color: borderColor, width: borderWidth),
                           bottom: BorderSide(color: borderColor, width: borderWidth),
                         ),
@@ -204,6 +219,8 @@ class GoGoTable extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               border: Border(
+                                left: BorderSide(color: borderColor, width: borderWidth),
+                                top: BorderSide(color: borderColor, width: borderWidth),
                                 right: BorderSide(color: borderColor, width: borderWidth),
                                 bottom: BorderSide(color: borderColor, width: borderWidth),
                               ),
@@ -219,6 +236,8 @@ class GoGoTable extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               border: Border(
+                                left: BorderSide(color: borderColor, width: borderWidth),
+                                top: BorderSide(color: borderColor, width: borderWidth),
                                 right: BorderSide(color: borderColor, width: borderWidth),
                                 bottom: BorderSide(color: borderColor, width: borderWidth),
                               ),
@@ -241,6 +260,8 @@ class GoGoTable extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               border: Border(
+                                left: BorderSide(color: borderColor, width: borderWidth),
+                                top: BorderSide(color: borderColor, width: borderWidth),
                                 right: BorderSide(color: borderColor, width: borderWidth),
                                 bottom: BorderSide(color: borderColor, width: borderWidth),
                               ),
@@ -256,6 +277,8 @@ class GoGoTable extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               border: Border(
+                                left: BorderSide(color: borderColor, width: borderWidth),
+                                top: BorderSide(color: borderColor, width: borderWidth),
                                 right: BorderSide(color: borderColor, width: borderWidth),
                                 bottom: BorderSide(color: borderColor, width: borderWidth),
                               ),
@@ -282,6 +305,7 @@ class GoGoTable extends StatelessWidget {
                       decoration: BoxDecoration(
                         border: Border(
                           left: BorderSide(color: borderColor, width: borderWidth),
+                          top: BorderSide(color: borderColor, width: borderWidth),
                           right: BorderSide(color: borderColor, width: borderWidth),
                           bottom: BorderSide(color: borderColor, width: borderWidth),
                         ),
@@ -303,6 +327,8 @@ class GoGoTable extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               border: Border(
+                                left: BorderSide(color: borderColor, width: borderWidth),
+                                top: BorderSide(color: borderColor, width: borderWidth),
                                 right: BorderSide(color: borderColor, width: borderWidth),
                                 bottom: BorderSide(color: borderColor, width: borderWidth),
                               ),
@@ -318,6 +344,8 @@ class GoGoTable extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               border: Border(
+                                left: BorderSide(color: borderColor, width: borderWidth),
+                                top: BorderSide(color: borderColor, width: borderWidth),
                                 right: BorderSide(color: borderColor, width: borderWidth),
                                 bottom: BorderSide(color: borderColor, width: borderWidth),
                               ),
@@ -340,6 +368,8 @@ class GoGoTable extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               border: Border(
+                                left: BorderSide(color: borderColor, width: borderWidth),
+                                top: BorderSide(color: borderColor, width: borderWidth),
                                 right: BorderSide(color: borderColor, width: borderWidth),
                                 bottom: BorderSide(color: borderColor, width: borderWidth),
                               ),
@@ -355,6 +385,8 @@ class GoGoTable extends StatelessWidget {
                             width: double.infinity,
                             decoration: BoxDecoration(
                               border: Border(
+                                left: BorderSide(color: borderColor, width: borderWidth),
+                                top: BorderSide(color: borderColor, width: borderWidth),
                                 right: BorderSide(color: borderColor, width: borderWidth),
                                 bottom: BorderSide(color: borderColor, width: borderWidth),
                               ),
