@@ -3,6 +3,7 @@ import 'package:flutter_table/go_table.dart';
 
 import 'go_go_table.dart';
 import 'go_go_tablee.dart';
+import 'my_table.dart';
 
 void main() => runApp(const MyApp());
 
@@ -31,19 +32,22 @@ class MyScreen extends StatelessWidget {
         backgroundColor: Colors.teal,
         centerTitle: true,
       ),
-      body: Container(
-        width: double.infinity,
-        color: Colors.white30,
-        child: Column(
-          children: <Widget>[
-            // GoTable(),
-            SizedBox(height: 30),
-            GoGoTable(),
-            SizedBox(height: 30),
-            GoGoTablee(),
-          ],
-        ),
-      ),
+      backgroundColor: Colors.lightGreen.shade200,
+      body: MyTable(),
+      // body: const GoTable(),
+      // body: Container(
+      //   width: double.infinity,
+      //   color: Colors.white30,
+      //   child: Column(
+      //     children: <Widget>[
+      //       // GoTable(),
+      //       SizedBox(height: 30),
+      //       GoGoTable(),
+      //       SizedBox(height: 30),
+      //       GoGoTablee(),
+      //     ],
+      //   ),
+      // ),
     );
   }
 }
