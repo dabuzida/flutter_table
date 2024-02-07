@@ -32,7 +32,6 @@ class MyScreen extends StatelessWidget {
         backgroundColor: Colors.teal,
         centerTitle: true,
       ),
-      backgroundColor: Colors.lightGreen.shade200,
       body: MyTable(),
       // body: const GoTable(),
       // body: Container(
